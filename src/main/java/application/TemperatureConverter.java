@@ -204,17 +204,16 @@ public class TemperatureConverter extends Application {
 	/**
 	 * Cette méthode permet l'initialisation des éléments graphiques.
 	 * 
-	 * @param root Le Pane principal de la scene
+	 * @param root Le FlowPane principal de la scene
 	 */
-	public void initGUI(Pane root) {
+	public void initGUI(FlowPane root) {
 		/*
 		 * TODO: 2. Complétez la fonction initGUI() pour qu'elle agence correctement les
 		 * différents
 		 * éléments graphiques (la disposition finale doit être proche de celle de la
 		 * photo).
-		 * Utilisez la classe FlowPane pour le contenant principal puis d'autres Panes
-		 * de votre choix
-		 * pour les autres éléments.
+		 * Utilisez le contenant principal "root" passé en paramètre,
+		 * puis d'autres Panes de votre choix pour les autres éléments.
 		 */
 
 		/*
